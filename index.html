@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="assets/images/logoimg.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>food4u | Fast Food & Restaurant</title>
+
+    <!-- bootstrap CSS file -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Awesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/eeb4314902.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css" />
+
+    <!-- Style.css for custom styling  -->
+    <link rel="stylesheet" href="assets/bootstrap/css/style.css" />
+  </head>
+  <body>
+    <header class="header1 position-fixed w-100" style="top: 0; z-index: 999">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/images/logoimg.svg"
+              class="d-inline-block align-text-top img-fluid"
+            />
+            <span class="logo-text">Food 4U</span>
+          </a>
+          <button
+            class="btn btn-primary d-block d-md-none"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-none d-md-flex">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+            <li class="nav-item nav-icon-box" style="margin-right: 6px">
+              <a class="nav-link" aria-current="page" href="#"
+                ><i class="fa-regular fa-user"></i
+              ></a>
+            </li>
+            <li class="nav-item nav-icon-box">
+              <a class="nav-link" aria-current="page" href="#"
+                ><i class="fa-solid fa-bag-shopping"></i
+              ></a>
+            </li>
+          </ul>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title main-text"
+                style="font-size: 30px"
+                id="offcanvasExampleLabel"
+              >
+                Food 4u
+              </h5>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="about.html"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="contact.html"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"></a>
+                </li>
+                <li class="nav-item nav-icon-box" style="margin-right: 6px">
+                  <a class="nav-link" aria-current="page" href="#"
+                    ><i class="fa-regular fa-user"></i
+                  ></a>
+                </li>
+                <li class="nav-item nav-icon-box">
+                  <a class="nav-link" aria-current="page" href="#"
+                    ><i class="fa-solid fa-bag-shopping"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+    </header>
+    <!-- data-bs-ride="carousel" -->
+    <main>
+      <section class="header position-relative">
+        <div class="bg-green-image"></div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicator">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            >
+              1
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            >
+              2
+            </button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            >
+              3
+            </button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-lg-7 position-relative">
+                    <div class="position-absolute arrow-img">
+                      <img
+                        src="assets/images/asset8.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="position-absolute leaf-img01">
+                      <img src="assets/images/asset7.png" alt="" />
+                    </div>
+                    <span style="color: #50a7da"
+                      >High Quality Test Station</span
+                    >
+                    <h1 class="main-text">
+                      Choosing The<br />
+                      Best
+                      <span class="main-text" style="color: #659dbd">
+                        Quality Food</span
+                      >
+                    </h1>
+                    <p style="max-width: 500px">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Illum aperiam asperiores nulla officia consectetur neque
+                      temporibus odit quos ex labore expedita, iusto ad omnis.
+                    </p>
+                    <div class="d-flex flex-wrap">
+                      <button class="btn btn-primary m-2">Book a Table</button>
+                      <button class="btn btn-secondary m-2">View More</button>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-5 position-relative leaf-img"
+                    style="z-index: 2"
+                  >
+                    <img
+                      src="assets/images/asset5.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-lg-7 position-relative">
+                    <div class="position-absolute arrow-img">
+                      <img
+                        src="assets/images/asset8.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="position-absolute leaf-img01">
+                      <img src="assets/images/asset7.png" alt="" />
+                    </div>
+                    <span style="color: #50a7da">Where Food Meets</span>
+                    <h1 class="main-text">
+                      Best Passion<br />
+                      Best
+                      <span class="main-text" style="color: #659dbd">
+                        Quality Food</span
+                      >
+                    </h1>
+                    <p style="max-width: 500px">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Illum aperiam asperiores nulla officia consectetur neque
+                      temporibus odit quos ex labore expedita, iusto ad omnis.
+                    </p>
+                    <div class="d-flex flex-wrap">
+                      <button class="btn btn-primary m-2">Book a Table</button>
+                      <button class="btn btn-secondary m-2">View More</button>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-5 position-relative leaf-img"
+                    style="z-index: 2"
+                  >
+                    <img
+                      src="assets/images/asset5.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-lg-7 position-relative">
+                    <div class="position-absolute arrow-img">
+                      <img
+                        src="assets/images/asset8.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="position-absolute leaf-img01">
+                      <img src="assets/images/asset7.png" alt="" />
+                    </div>
+                    <span style="color: #50a7da"
+                      >High Quality Test Station</span
+                    >
+                    <h1 class="main-text">
+                      Choosing The<br />
+                      Best
+                      <span class="main-text" style="color: #659dbd">
+                        Quality Food</span
+                      >
+                    </h1>
+                    <p style="max-width: 500px">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Illum aperiam asperiores nulla officia consectetur neque
+                      temporibus odit quos ex labore expedita, iusto ad omnis.
+                    </p>
+                    <div class="d-flex flex-wrap">
+                      <button class="btn btn-primary m-2">Book a Table</button>
+                      <button class="btn btn-secondary m-2">View More</button>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-5 position-relative leaf-img"
+                    style="z-index: 2"
+                  >
+                    <img
+                      src="assets/images/asset5.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span aria-hidden="true"><i class="fa-solid fa-arrow-up"></i></span>
+          </button>
+          <button
+            class="control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span aria-hidden="true"
+              ><i class="fa-solid fa-arrow-down"></i
+            ></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="mt-5 s-3 mb-5 position-relative beans-img">
+        <div class="container text-center">
+          <h1 class="main-text mb-4">Special Menu</h1>
+          <div class="row justify-content-between py-5">
+            <div class="col-lg-3">
+              <div class="menu-border position-relative">
+                <img
+                  src="assets/images/asset12.jpeg"
+                  class="img-fluid mb-4 mt-4"
+                  alt=""
+                  width="130"
+                  style="border-radius: 48%; padding: 10px; background: white"
+                />
+                <h4 class="mb-2">Pizza</h4>
+                <p class="mb-2">
+                  Lorem ipsum dolor, sit amet<br />consectetur adipisicing
+                </p>
+                <h5 class="mb-3 mt-3">$55.0</h5>
+                <button class="btn btn-primary mt-2 mb-4">Add to Cart</button>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="menu-border position-relative">
+                <img
+                  src="assets/images/asset12.jpeg"
+                  class="img-fluid mb-4 mt-4"
+                  alt=""
+                  width="130"
+                  style="border-radius: 48%; padding: 10px; background: white"
+                />
+                <h4 class="mb-2">Pizza</h4>
+                <p class="mb-2">
+                  Lorem ipsum dolor, sit amet<br />consectetur adipisicing
+                </p>
+                <h5 class="mb-3 mt-3">$55.0</h5>
+                <button class="btn btn-primary mt-2 mb-4">Add to Cart</button>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="menu-border position-relative">
+                <img
+                  src="assets/images/asset12.jpeg"
+                  class="img-fluid mb-4 mt-4"
+                  alt=""
+                  width="130"
+                  style="border-radius: 48%; padding: 10px; background: white"
+                />
+                <h4 class="mb-2">Pizza</h4>
+                <p class="mb-2">
+                  Lorem ipsum dolor, sit amet<br />consectetur adipisicing
+                </p>
+                <h5 class="mb-3 mt-3">$55.0</h5>
+                <button class="btn btn-primary mt-2 mb-4">Add to Cart</button>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="menu-border position-relative">
+                <img
+                  src="assets/images/asset12.jpeg"
+                  class="img-fluid mb-4 mt-4"
+                  alt=""
+                  width="130"
+                  style="border-radius: 48%; padding: 10px; background: white"
+                />
+                <h4 class="mb-2">Pizza</h4>
+                <p class="mb-2">
+                  Lorem ipsum dolor, sit amet<br />consectetur adipisicing
+                </p>
+                <h5 class="mb-3 mt-3">$55.0</h5>
+                <button class="btn btn-primary mt-2 mb-4">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="mt-5 s-4 position-relative big-leaf-img"
+        style="background-color: #eff9ff"
+      >
+        <div class="container text-center">
+          <h1 class="main-text p-5">Today's Menu</h1>
+          <div class="row justify-content-around">
+            <div class="col-lg-3 dish-card position-relative mb-5">
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Pasta</h4>
+                  <h4 class="on-hover-price-h4" style="color: #429fd5">
+                    $35.00
+                  </h4>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+              <span class="top-seller">Top Seller</span>
+              <div class="bottom-card-desc py-3 px-2">
+                <h6>Pasta</h6>
+                <p>Lorem ipsum dolor sit, amet adipisicing elit</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative mb-5"
+              style="background-image: url('assets/images/asset19.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Shake</h4>
+                  <h4 class="on-hover-price-h4" style="color: #429fd5">
+                    $55.00
+                  </h4>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+              <span class="top-seller">Top Seller</span>
+              <div class="bottom-card-desc py-3 px-2">
+                <h6>Shake</h6>
+                <p>Lorem ipsum dolor sit, amet adipisicing elit</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative mb-5"
+              style="background-image: url('assets/images/asset20.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Dal</h4>
+                  <h4 class="on-hover-price-h4" style="color: #429fd5">
+                    $20.00
+                  </h4>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+              <span class="top-seller">Top Seller</span>
+              <div class="bottom-card-desc py-3 px-2">
+                <h6>Dal</h6>
+                <p>Lorem ipsum dolor sit, amet adipisicing elit</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative mb-5"
+              style="background-image: url('assets/images/asset21.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Pizza</h4>
+                  <h4 class="on-hover-price-h4" style="color: #429fd5">
+                    $65.00
+                  </h4>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+              <span class="top-seller">Top Seller</span>
+              <div class="bottom-card-desc py-3 px-2">
+                <h6>Pizza</h6>
+                <p>Lorem ipsum dolor sit, amet adipisicing elit</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary mb-5">Sell All Dishes</button>
+        </div>
+      </section>
+
+      <section
+        class="s-5 position-relative beans-img-left"
+        style="background-color: #eff9ff"
+      >
+        <div class="container text-center">
+          <h1 class="main-text p-5">Quality Services</h1>
+          <div class="row justify-content-evenly">
+            <div class="col-lg-3 card-box position-relative mb-5">
+              <div class="container card-box-text position-relative">
+                <i class="fa-solid fa-shop"></i>
+                <h2>Restaurant</h2>
+                <p>Lorem ipsum dolor consectetur<br />adipisicing elit</p>
+              </div>
+            </div>
+            <div class="col-lg-3 card-box position-relative mb-5">
+              <div class="container card-box-text position-relative">
+                <i class="fa-solid fa-martini-glass-citrus"></i>
+                <h2>Restaurant</h2>
+                <p>Lorem ipsum dolor consectetur<br />adipisicing elit</p>
+              </div>
+            </div>
+            <div class="col-lg-3 card-box position-relative mb-5">
+              <div class="container card-box-text position-relative">
+                <i class="fa-solid fa-mug-hot"></i>
+                <h2>Restaurant</h2>
+                <p>Lorem ipsum dolor consectetur<br />adipisicing elit</p>
+              </div>
+            </div>
+            <div class="col-lg-3 card-box position-relative mb-5">
+              <div class="container card-box-text position-relative">
+                <i class="fa-solid fa-cake-candles"></i>
+                <h2>Restaurant</h2>
+                <p>Lorem ipsum dolor consectetur<br />adipisicing elit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-5 s-6 pb-5">
+        <div class="container text-center">
+          <h1 class="main-text p-3">From Our Menu</h1>
+          <div class="row justify-content-evenly mt-5 responsive">
+            <div class="col-lg-3 dish-card position-relative m-2">
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Pasta</h4>
+                  <h4 class="on-hover-price-h4" style="color: #eff9ff">
+                    $35.00
+                  </h4>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+              <span class="top-seller">Top Seller</span>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative m-2"
+              style="background-image: url('assets/images/asset18.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Shake</h4>
+                  <h4 class="on-hover-price-h4" style="color: #eff9ff">
+                    $55.00
+                  </h4>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+              <span class="top-seller">Top Seller</span>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative m-2"
+              style="background-image: url('assets/images/asset24.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Dal</h4>
+                  <h4 class="on-hover-price-h4" style="color: #eff9ff">
+                    $20.00
+                  </h4>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+              <span class="top-seller">Top Seller</span>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative m-2"
+              style="background-image: url('assets/images/asset59.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Pizza</h4>
+                  <h4 class="on-hover-price-h4" style="color: #eff9ff">
+                    $65.00
+                  </h4>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+              <span class="top-seller">Top Seller</span>
+            </div>
+
+            <div class="col-lg-3 dish-card position-relative m-2">
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Pasta</h4>
+                  <h4 class="on-hover-price-h4" style="color: #eff9ff">
+                    $35.00
+                  </h4>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+              <span class="top-seller">Top Seller</span>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative m-2"
+              style="background-image: url('assets/images/asset18.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Shake</h4>
+                  <h4 class="on-hover-price-h4" style="color: #eff9ff">
+                    $55.00
+                  </h4>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+              <span class="top-seller">Top Seller</span>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative m-2"
+              style="background-image: url('assets/images/asset24.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Dal</h4>
+                  <h4 class="on-hover-price-h4" style="color: #eff9ff">
+                    $20.00
+                  </h4>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+              <span class="top-seller">Top Seller</span>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative m-2"
+              style="background-image: url('assets/images/asset59.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Pizza</h4>
+                  <h4 class="on-hover-price-h4" style="color: #eff9ff">
+                    $65.00
+                  </h4>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+              <span class="top-seller">Top Seller</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- form section -->
+
+      <section class="s-7 position-relative reservation-form">
+        <div class="container text-form-data text-center p-5">
+          <h1
+            class="main-text mb-4 mt-5"
+            style="color: white; position: relative; z-index: 999"
+          >
+            Reservation
+          </h1>
+          <form
+            class="form row justify-content-center"
+            style="position: relative; z-index: 999"
+          >
+            <div class="col-lg-4">
+              <div class="bottom-border-icon">
+                <i class="fa-regular fa-user"></i>
+                <input
+                  class="form-input-custom"
+                  type="text"
+                  placeholder="Your Name"
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bottom-border-icon">
+                <i class="fa-solid fa-phone-volume"></i>
+                <input
+                  class="form-input-custom"
+                  type="text"
+                  placeholder="Phone Number"
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bottom-border-icon">
+                <i class="fa-regular fa-envelope"></i>
+                <input
+                  class="form-input-custom"
+                  type="email"
+                  placeholder="Your Email"
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bottom-border-icon">
+                <i class="fa-solid fa-users"></i>
+                <input
+                  class="form-input-custom"
+                  type="text"
+                  placeholder="Number of People"
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bottom-border-icon">
+                <i class="fa-solid fa-calendar-days"></i>
+                <input
+                  class="form-input-custom"
+                  type="text"
+                  placeholder="Date"
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bottom-border-icon">
+                <i class="fa-regular fa-clock"></i>
+                <input
+                  class="form-input-custom"
+                  type="text"
+                  placeholder="Time"
+                />
+              </div>
+            </div>
+            <button class="btn btn-book-table">Book Table</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Tabspane -->
+      <section class="s-8">
+        <div class="container mb-5">
+          <h1 class="main-text p-5 text-center">Customer's Comment</h1>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="d-flex align-items-start me-1">
+                <div
+                  class="nav nav-pills row"
+                  id="v-pills-tab"
+                  role="tablist"
+                  aria-orientation="vertical"
+                >
+                  <img
+                    src="assets/images/asset25.jpeg"
+                    class="nav-link active col-lg-4"
+                    id="v-pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-home"
+                    aria-selected="true"
+                  />
+                  <img
+                    src="assets/images/asset26.jpeg"
+                    class="nav-link col-lg-4"
+                    id="v-pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-profile"
+                    aria-selected="false"
+                  />
+                  <img
+                    src="assets/images/asset27.jpeg"
+                    class="nav-link col-lg-4"
+                    id="v-pills-disabled-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-disabled"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-disabled"
+                    aria-selected="false"
+                  />
+                  <img
+                    src="assets/images/asset28.jpeg"
+                    class="nav-link col-lg-4"
+                    id="v-pills-messages-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-messages"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-messages"
+                    aria-selected="false"
+                  />
+                  <img
+                    src="assets/images/asset29.jpeg"
+                    class="nav-link col-lg-4"
+                    id="v-pills-settings-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-settings"
+                    aria-selected="false"
+                  />
+                  <img
+                    src="assets/images/asset30.jpeg"
+                    class="nav-link col-lg-4"
+                    id="v-pills-settings-second-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings-second"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-settings-second"
+                    aria-selected="false"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 back-tabpane-color">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="v-pills-home"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-home-tab"
+                  tabindex="0"
+                >
+                  <div class="quation-marks-sign position-relative">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam fugiat explicabo, qui iste repellendus libero.
+                      Accusamus ab itaque aspernatur aperiam laboriosam. Ipsam,
+                      at sequi.
+                    </p>
+                    <div class="left-border-box">
+                      <h4 class="mt-5">Alisha</h4>
+                      <h6>Food Expert</h6>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-profile-tab"
+                  tabindex="0"
+                >
+                  <div class="quation-marks-sign position-relative">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam fugiat explicabo, qui iste repellendus libero.
+                      Accusamus ab itaque aspernatur aperiam laboriosam. Ipsam,
+                      at sequi.
+                    </p>
+                    <div class="left-border-box">
+                      <h4 class="mt-5">Thomas Head</h4>
+                      <h6>Food Expert</h6>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-disabled"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-disabled-tab"
+                  tabindex="0"
+                >
+                  <div class="quation-marks-sign position-relative">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam fugiat explicabo, qui iste repellendus libero.
+                      Accusamus ab itaque aspernatur aperiam laboriosam. Ipsam,
+                      at sequi.
+                    </p>
+                    <div class="left-border-box">
+                      <h4 class="mt-5">Ronny Roy</h4>
+                      <h6>Food Expert</h6>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-messages"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-messages-tab"
+                  tabindex="0"
+                >
+                  <div class="quation-marks-sign position-relative">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam fugiat explicabo, qui iste repellendus libero.
+                      Accusamus ab itaque aspernatur aperiam laboriosam. Ipsam,
+                      at sequi.
+                    </p>
+                    <div class="left-border-box">
+                      <h4 class="mt-5">Jolly Joy</h4>
+                      <h6>Food Expert</h6>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-settings"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-settings-tab"
+                  tabindex="0"
+                >
+                  <div class="quation-marks-sign position-relative">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam fugiat explicabo, qui iste repellendus libero.
+                      Accusamus ab itaque aspernatur aperiam laboriosam. Ipsam,
+                      at sequi.
+                    </p>
+                    <div class="left-border-box">
+                      <h4 class="mt-5">Kally Mint</h4>
+                      <h6>Food Expert</h6>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-settings-second"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-settings-tab"
+                  tabindex="0"
+                >
+                  <div class="quation-marks-sign position-relative">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam fugiat explicabo, qui iste repellendus libero.
+                      Accusamus ab itaque aspernatur aperiam laboriosam. Ipsam,
+                      at sequi.
+                    </p>
+                    <div class="left-border-box">
+                      <h4 class="mt-5">Dolly Mint</h4>
+                      <h6>Food Expert</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 9 -->
+      <section class="s-9" style="background-color: #eff9ff">
+        <div class="container text-center">
+          <h1 class="main-text p-5">Master Chef's</h1>
+          <div class="row justify-content-evenly responsive">
+            <div class="col-lg-3 dish-card position-relative mb-5 m-2">
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">John Deo</h4>
+                  <h6 class="on-hover-price-h6">Senior Chef</h6>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+
+                  <div class="d-flex flex-column social-icon-div">
+                    <div class="facebook-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="twitter-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="instagram-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="linkedin-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative m-2 mb-5"
+              style="background-image: url('assets/images/asset32.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Ajax Deo</h4>
+                  <h6 class="on-hover-price-h6">Senior Chef</h6>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+
+                  <div class="d-flex flex-column social-icon-div">
+                    <div class="facebook-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="twitter-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="instagram-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="linkedin-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative m-2 mb-5"
+              style="background-image: url('assets/images/asset33.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Kamal Deo</h4>
+                  <h6 class="on-hover-price-h6">Junior Chef</h6>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+
+                  <div class="d-flex flex-column social-icon-div">
+                    <div class="facebook-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="twitter-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="instagram-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="linkedin-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative m-2 mb-5"
+              style="background-image: url('assets/images/asset34.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">JK Deo</h4>
+                  <h6 class="on-hover-price-h6">Junior Chef</h6>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+
+                  <div class="d-flex flex-column social-icon-div">
+                    <div class="facebook-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="twitter-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="instagram-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="linkedin-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 dish-card position-relative m-2 mb-5">
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">John Deo</h4>
+                  <h6 class="on-hover-price-h6">Senior Chef</h6>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+
+                  <div class="d-flex flex-column social-icon-div">
+                    <div class="facebook-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="twitter-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="instagram-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="linkedin-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative m-2 mb-5"
+              style="background-image: url('assets/images/asset32.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Ajax Deo</h4>
+                  <h6 class="on-hover-price-h6">Senior Chef</h6>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+
+                  <div class="d-flex flex-column social-icon-div">
+                    <div class="facebook-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="twitter-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="instagram-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="linkedin-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative m-2 mb-5"
+              style="background-image: url('assets/images/asset33.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">Kamal Deo</h4>
+                  <h6 class="on-hover-price-h6">Junior Chef</h6>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+
+                  <div class="d-flex flex-column social-icon-div">
+                    <div class="facebook-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="twitter-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="instagram-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="linkedin-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 dish-card position-relative m-2 mb-5"
+              style="background-image: url('assets/images/asset34.jpeg')"
+            >
+              <div class="on-hover-price d-flex justify-content-between">
+                <div>
+                  <h4 class="on-hover-price-h4">JK Deo</h4>
+                  <h6 class="on-hover-price-h6">Junior Chef</h6>
+                </div>
+                <div class="nav-icon-box-cart" style="display: inline-block">
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+
+                  <div class="d-flex flex-column social-icon-div">
+                    <div class="facebook-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="twitter-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="instagram-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="linkedin-icon mt-3">
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s-10">
+        <div class="container">
+          <h1 class="main-text text-center p-5">News & blog</h1>
+          <div class="row responsive-card">
+            <div class="col-lg-6 m-2">
+              <div class="card mb-3" style="max-width: 600px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="assets/images/asset37.jpeg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="height: 100%; width: 100%"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <small class="text-muted"
+                          ><i class="fa-solid fa-calendar-days"></i
+                          >&nbsp;&nbsp;20-Sept-2023&nbsp;&nbsp;&nbsp;&nbsp;</small
+                        >
+                        <small class="text-muted"
+                          ><i class="fa-regular fa-comment"></i
+                          >&nbsp;&nbsp;2K+</small
+                        >
+                      </p>
+                      <h5 class="card-title">Taste of Paradise Dishes</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Minus ea, corrupti facilis dolorem eligendi
+                        quidem.
+                      </p>
+                      <button class="btn btn-primary">Read More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 m-2">
+              <div class="card mb-3" style="max-width: 600px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="assets/images/asset37.jpeg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="height: 100%; width: 100%"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <small class="text-muted"
+                          ><i class="fa-solid fa-calendar-days"></i
+                          >&nbsp;&nbsp;20-Sept-2023&nbsp;&nbsp;&nbsp;&nbsp;</small
+                        >
+                        <small class="text-muted"
+                          ><i class="fa-regular fa-comment"></i
+                          >&nbsp;&nbsp;2K+</small
+                        >
+                      </p>
+                      <h5 class="card-title">Taste of Paradise Dishes</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Minus ea, corrupti facilis dolorem eligendi
+                        quidem.
+                      </p>
+                      <button class="btn btn-primary">Read More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 m-2">
+              <div class="card mb-3" style="max-width: 600px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="assets/images/asset37.jpeg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="height: 100%; width: 100%"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <small class="text-muted"
+                          ><i class="fa-solid fa-calendar-days"></i
+                          >&nbsp;&nbsp;20-Sept-2023&nbsp;&nbsp;&nbsp;&nbsp;</small
+                        >
+                        <small class="text-muted"
+                          ><i class="fa-regular fa-comment"></i
+                          >&nbsp;&nbsp;2K+</small
+                        >
+                      </p>
+                      <h5 class="card-title">Taste of Paradise Dishes</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Minus ea, corrupti facilis dolorem eligendi
+                        quidem.
+                      </p>
+                      <button class="btn btn-primary">Read More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 m-2">
+              <div class="card mb-3" style="max-width: 600px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="assets/images/asset37.jpeg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="height: 100%; width: 100%"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <small class="text-muted"
+                          ><i class="fa-solid fa-calendar-days"></i
+                          >&nbsp;&nbsp;20-Sept-2023&nbsp;&nbsp;&nbsp;&nbsp;</small
+                        >
+                        <small class="text-muted"
+                          ><i class="fa-regular fa-comment"></i
+                          >&nbsp;&nbsp;2K+</small
+                        >
+                      </p>
+                      <h5 class="card-title">Taste of Paradise Dishes</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Minus ea, corrupti facilis dolorem eligendi
+                        quidem.
+                      </p>
+                      <button class="btn btn-primary">Read More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="map-section position-relative p-0">
+        <div style="height: 450px">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501850.301215382!2d72.76931866783292!3d31.00463137805289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391964aa569e7355%3A0x8fbd263103a38861!2sPunjab!5e0!3m2!1sen!2sin!4v1699941914670!5m2!1sen!2sin"
+            width="100%"
+            height="100%"
+            style="border: 0; filter: grayscale(1)"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <!-- 2nd form  -->
+        <div class="last-footer-form">
+          <div class="container">
+            <h1>Contact Us</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur <br />
+              adipisicing elit. Enim, delectus.
+            </p>
+            <form class="form">
+              <div
+                class="d-flex bottom-border-icon01 mt-4 mb-4 align-items-center"
+              >
+                <i class="fa-regular fa-user"></i>
+                <input
+                  type="text"
+                  class="form-input-custom form-control"
+                  name="iname"
+                  id="iname"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="d-flex bottom-border-icon01 mb-4 align-items-center">
+                <i class="fa-regular fa-envelope"></i>
+                <input
+                  type="text"
+                  class="form-input-custom form-control"
+                  name="iname"
+                  id="iemail"
+                  placeholder="Email Address"
+                />
+              </div>
+              <div class="d-flex bottom-border-icon01 mb-4 align-items-center">
+                <i class="fa-solid fa-info"></i>
+                <input
+                  type="text"
+                  class="form-input-custom form-control"
+                  name="iname"
+                  id="isubject"
+                  placeholder="Subject"
+                />
+              </div>
+              <div class="d-flex bottom-border-icon01 mb-4 align-items-start">
+                <i class="fa-regular fa-message"></i>
+                <textarea
+                  class="form-input-custom form-control"
+                  name="imessage"
+                  id="imessage"
+                  rows="3"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <button class="btn btn-secondary-form">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="text-center text-lg-start text-white footer-bottom"
+      style="background-color: #222222"
+    >
+      <br />
+      <div class="container text-center text-md-start">
+        <div class="row">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"></div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <a href="#">
+              <p>
+                <i class="fa fa-location-dot"></i>&nbsp;&nbsp; 1247/Plot,
+                Ludhiana
+              </p>
+            </a>
+            <a href="#">
+              <p>
+                <i class="fa fa-phone"></i>&nbsp;&nbsp;+91 987-654-3210 <br />
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;+91 987-654-3210
+              </p>
+            </a>
+            <a href="#">
+              <p>
+                <i class="fa-regular fa-envelope"></i
+                >&nbsp;&nbsp;info@example.com <br />&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;info@example.com
+              </p>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">OUR LINKS</h6>
+            <p>
+              <a href="#!" class="text-white">Home</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">About Us</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Services</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Team</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Blog</a>
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">HELP CENTER</h6>
+            <p>
+              <a href="#!" class="text-white">FAQ</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Shop</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Category Filter</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Testimonials</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Contact Us</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="text-center p-3">
+        © 2023 Copyright:
+        <a class="text-white" href="#">food4U.com</a>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- bootstrap JS file -->
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Jquery Link -->
+    <script src="assets/bootstrap/js/jquery-3.7.1.min.js"></script>
+
+    <!-- Slick slider js file -->
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
+    <!-- Index.js for custom modification  -->
+    <script src="assets/bootstrap/js/index.js"></script>
+  </body>
+</html>
